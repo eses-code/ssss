@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>E.ON Telefonnummer &amp; Hilfe | Anbieter‑Portal</title>
+<meta content="E.ON Telefonnummer – sofort sprechen. Hilfe zu Anmeldung, Umzug, Abschlag &amp; Tarifwechsel. Jetzt anrufen: 01639 116317." name="description"/>
+<link href="https://dein-portal.de/anbieter/eon/telefonnummer/" rel="canonical"/>
+<style>
+    :root{--bg:#f9fafb;--fg:#111827;--muted:#6b7280;--card:#fff;--border:#e5e7eb;--accent:#e30613}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+    .wrap{max-width:1380px;margin:0 auto;padding:12px}
+    .grid{display:grid;gap:12px}
+    .grid-3{grid-template-columns:1fr 2fr 1fr}
+    @media(max-width:1100px){.grid-3{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;box-shadow:0 6px 16px rgba(0,0,0,.05)}
+    .head{padding:16px 18px 0}.content{padding:12px 18px 16px}
+    .muted{color:var(--muted)}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:14px;border:1.5px solid var(--accent);text-decoration:none}
+    .btn.primary{background:var(--accent);color:#fff}
+    .btn.ghost{background:transparent;color:var(--accent)}
+    .badges{display:flex;gap:10px;flex-wrap:wrap}
+    .pill{display:inline-block;border:1px solid var(--border);border-radius:12px;padding:8px 10px;background:#fff;font-size:14px}
+    nav.breadcrumb{font-size:14px;color:var(--muted);margin:6px 0 10px}
+    nav.breadcrumb a{color:inherit;text-decoration:none}
+    nav.breadcrumb .sep{margin:0 6px}
+    .list-clean{margin:0;padding-left:18px}
+    .kws{font-size:14px;color:var(--muted)}
+    .sticky{position:fixed;inset-inline:0;bottom:0;background:rgba(255,255,255,.98);border-top:1px solid var(--border);padding:10px;display:flex;gap:10px}
+    @media(min-width:768px){.sticky{display:none}}
+    .brandbar{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:3px solid var(--accent)}
+    .brandbar img{height:56px;width:auto}
+    .badge-brand{display:inline-block;background:var(--accent);color:#fff;border-radius:10px;padding:5px 10px;font-size:12px;font-weight:800;letter-spacing:.3px}
+    .h1row{display:flex;align-items:center;gap:12px;flex-wrap:wrap; margin:0}
+    .h1row img.brand-h1-logo{height:40px;width:auto}
+    .newsgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+    .newsgrid article{border:1px solid var(--border);border-radius:12px;overflow:hidden}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+    .gallery img{width:100%;height:auto;border-radius:10px;display:block}
+  </style>
+<style>
+/* Sticky Call/WhatsApp bar */
+#sticky-contact-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 9999;
+  background: #0a0a0a; color: #fff; display: flex; gap: 10px;
+  align-items: center; justify-content: center; padding: 12px 10px;
+  box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+#sticky-contact-bar .cta {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-weight: 700; text-decoration: none; padding: 12px 16px; border-radius: 999px;
+  background: #ffffff; color: #0a0a0a; border: 2px solid #fff;
+}
+#sticky-contact-bar .cta.cta-call { background: #10b981; color: #fff; border-color: #10b981; }
+#sticky-contact-bar .cta.cta-wa { background: #25D366; color: #0a0a0a; border-color: #25D366; }
+#sticky-contact-bar .meta { font-size: 12px; opacity: 0.9; margin-left: 8px; }
+@media (min-width: 1024px){
+  #sticky-contact-bar { padding: 14px 20px; justify-content: space-between; }
+  #sticky-contact-bar .left { display: flex; align-items: center; gap: 12px;}
+}
+body { padding-bottom: 84px; } /* ensure content not hidden behind bar */
+
+#sticky-contact-bar .left { font-weight:600; }
+#sticky-contact-bar .left::before { content:''; display:inline-block; width:10px; height:10px; border-radius:999px; background:#10b981; margin-right:8px; box-shadow:0 0 0 0 rgba(16,185,129,0.7); animation:pulse 2s infinite; vertical-align:middle; }
+@keyframes pulse { 0%{ box-shadow:0 0 0 0 rgba(16,185,129,0.7);} 70%{ box-shadow:0 0 0 12px rgba(16,185,129,0);} 100%{ box-shadow:0 0 0 0 rgba(16,185,129,0);} }
+</style><style>
+.wa-quick-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+.wa-quick-chips a { border:1px solid #d1d5db; padding:8px 12px; border-radius:999px; font-size:14px; text-decoration:none; color:#111827; background:#fff; }
+.wa-quick-chips a:hover { background:#f3f4f6; }
+</style><style>
+.card-cta-tel { text-decoration:none; padding:8px 12px; border-radius:999px; border:2px solid #10b981; }
+.card-cta-tel:hover { background:#10b981; color:#fff; }
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Sofortwechsel24", "url": "https://sofortwechsel24.de", "sameAs": ["https://sofortwechsel24.de"], "contactPoint": [{"@type": "ContactPoint", "telephone": "+491639116317", "contactType": "customer service", "areaServed": "DE", "availableLanguage": ["de"]}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Start", "item": "https://sofortwechsel24.de"}, {"@type": "ListItem", "position": 2, "name": "E.ON Telefon & WhatsApp", "item": "https://sofortwechsel24.de/eon-telefon"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Welche Daten brauche ich für Anmeldung oder Umzug bei E.ON?", "acceptedAnswer": {"@type": "Answer", "text": "Name, Adresse, Zählernummer, Einzugs-/Auszugsdatum, IBAN. Wir gehen alles live am Telefon in 5–7 Minuten durch."}}, {"@type": "Question", "name": "Wie melde ich den Zählerstand korrekt?", "acceptedAnswer": {"@type": "Answer", "text": "Zählernummer und aktuellen Stand bereithalten. Dann telefonisch oder per WhatsApp durchgeben – wir übermitteln den Stand direkt."}}, {"@type": "Question", "name": "Wie schnell erreiche ich jemanden?", "acceptedAnswer": {"@type": "Answer", "text": "In der Regel sofort – durchschnittliche Wartezeit unter 2 Minuten, heute bis 20:00 erreichbar."}}, {"@type": "Question", "name": "Wie schnell geht der Wechsel?", "acceptedAnswer": {"@type": "Answer", "text": "Wir stoßen den Wechsel innerhalb von 24 Stunden an. Der Lieferbeginn hängt von Netzbetreiber und bisherigem Vertrag ab."}}, {"@type": "Question", "name": "Gibt es Hilfe für Gewerbe?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Wir beraten Gewerbe- und Geschäftskunden telefonisch und stellen passende Angebote zusammen."}}, {"@type": "Question", "name": "Kostet der Anruf etwas?", "acceptedAnswer": {"@type": "Answer", "text": "Nein. Unsere Beratung ist kostenlos und unverbindlich."}}, {"@type": "Question", "name": "Wie ist der Datenschutz geregelt?", "acceptedAnswer": {"@type": "Answer", "text": "DSGVO-konform. Wir verarbeiten nur die Daten, die zur Bearbeitung deines Anliegens erforderlich sind."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "E.ON Umzug telefonisch erledigen", "totalTime": "PT7M", "step": [{"@type": "HowToStep", "name": "Daten bereitlegen", "text": "Name, Adresse, Einzugsdatum, Zählernummer, IBAN."}, {"@type": "HowToStep", "name": "Anrufen oder WhatsApp", "text": "Klicke 'Jetzt anrufen' oder schreibe uns per WhatsApp."}, {"@type": "HowToStep", "name": "Bestätigung", "text": "Wir bestätigen dir den erfolgreichen Auftrag am Telefon."}]}</script><style>
+.rating-badge { display:flex; align-items:center; gap:8px; margin:8px 0; font-weight:600; }
+.rating-badge .stars { font-size:16px; letter-spacing:2px; }
+.rating-badge .stars .star { color:#f59e0b; } /* amber star */
+.rating-badge .text { font-size:14px; color:#111827; }
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "E.ON Kundenservice", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "189", "bestRating": "5", "worstRating": "1"}}</script><style>
+.sidebar-card { border:1px solid #e5e7eb; background:#fff; border-radius:16px; padding:12px; margin:12px 0; }
+.sidebar-card h4 { margin:0 0 8px 0; font-size:14px; color:#111827; }
+.sidebar-actions { display:flex; gap:8px; flex-wrap:wrap; }
+.sidebar-actions a { text-decoration:none; font-weight:700; border-radius:999px; padding:8px 12px; border:1px solid #d1d5db; }
+.sidebar-actions a.call { background:#10b981; color:#fff; border-color:#10b981; }
+.sidebar-actions a.wa { background:#25D366; color:#0a0a0a; border-color:#25D366; }
+.sidebar-chips { display:flex; flex-wrap:wrap; gap:8px; }
+.sidebar-chips a { border:1px solid #d1d5db; padding:6px 10px; border-radius:999px; font-size:13px; text-decoration:none; color:#111827; background:#fff; }
+.sidebar-open { display:flex; align-items:center; gap:8px; font-size:13px; }
+.sidebar-open .dot { width:10px; height:10px; border-radius:999px; background:#10b981; box-shadow:0 0 0 0 rgba(16,185,129,0.7); }
+.sidebar-rating { font-size:13px; color:#111827; }
+.sidebar-rating .star { color:#f59e0b; }
+</style><style>
+.copy-tel-btn { margin-left:8px; padding:6px 10px; border-radius:999px; border:1px solid #d1d5db; background:#fff; cursor:pointer; font-size:12px; }
+.copy-tel-btn.copied { background:#10b981; color:#fff; border-color:#10b981; }
+</style><style>
+#exit-intent-backdrop { position:fixed; inset:0; background:rgba(0,0,0,0.5); display:none; align-items:center; justify-content:center; z-index:10000; }
+#exit-intent-modal { background:#fff; border-radius:16px; padding:20px; width:90%; max-width:440px; box-shadow:0 20px 60px rgba(0,0,0,0.25); }
+#exit-intent-modal h3 { margin-top:0; margin-bottom:8px; }
+#exit-intent-modal p { margin:0 0 12px 0; color:#374151; }
+#exit-intent-actions { display:flex; gap:8px; flex-wrap:wrap; }
+#exit-intent-actions a { text-decoration:none; font-weight:700; border-radius:999px; padding:10px 14px; border:1px solid #d1d5db; }
+#exit-intent-actions a.tel { background:#10b981; color:#fff; border-color:#10b981; }
+#exit-intent-actions a.wa { background:#25D366; color:#0a0a0a; border-color:#25D366; }
+#exit-intent-close { background:none; border:0; position:absolute; top:8px; right:12px; font-size:22px; cursor:pointer; }
+@media (max-width: 768px){
+  #exit-intent-modal { width:92%; }
+}
+</style><style>
+.mini-testimonials { display:grid; gap:8px; margin:8px 0 6px 0; }
+.mini-testimonials .bubble { background:#f8fafc; border:1px solid #e5e7eb; border-radius:12px; padding:10px 12px; font-size:14px; color:#111827; }
+.mini-testimonials .who { display:block; color:#6b7280; font-size:12px; margin-top:4px; }
+</style><style>
+.trust-strip { display:flex; flex-wrap:wrap; gap:12px; padding:10px 12px; background:#f9fafb; border:1px solid #e5e7eb; border-radius:12px; }
+.trust-pill { display:flex; align-items:center; gap:8px; padding:6px 10px; border:1px solid #e5e7eb; border-radius:999px; font-size:13px; background:#fff; }
+.trust-pill .dot { width:8px; height:8px; border-radius:999px; background:#10b981; }
+.trust-star { color:#f59e0b; }
+.rich-bullets { display:grid; gap:8px; margin:8px 0; }
+.rich-bullets .item { display:flex; gap:10px; align-items:flex-start; }
+.rich-bullets .icon { font-size:18px; line-height:1.2; }
+.section-card { border:1px solid #e5e7eb; background:#fff; border-radius:16px; padding:16px; margin:16px 0; }
+.section-card h2, .section-card h3 { margin-top:0; }
+.cta-row { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+.cta-primary { text-decoration:none; padding:10px 14px; border-radius:999px; border:2px solid #10b981; font-weight:700; }
+.cta-secondary { text-decoration:none; padding:10px 14px; border-radius:999px; border:2px solid #25D366; font-weight:700; }
+.faq { display:grid; gap:8px; }
+.faq details { border:1px solid #e5e7eb; border-radius:12px; padding:10px 12px; background:#fff; }
+.faq summary { cursor:pointer; font-weight:600; }
+.badge { display:inline-block; padding:4px 8px; border-radius:999px; background:#ecfdf5; color:#065f46; border:1px solid #a7f3d0; font-size:12px; font-weight:700; }
+</style></head>
+<body>
+<header>
+<div class="wrap brandbar">
+<img alt="E.ON" decoding="async" height="56" loading="eager" src="data:image/png;base64,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" width="240"/>
+<div style="display:flex;gap:10px">
+<a class="btn primary" data-pos="body" href="tel:+491639116317">📞 Jetzt anrufen</a><button class="copy-tel-btn">Nummer kopieren</button>
+<a class="btn ghost" data-pos="body" data-prefill="no" href="https://wa.me/491639116317?utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=existing">💬 WhatsApp</a>
+<div class="wa-quick-chips"><a data-pos="body" data-prefill="yes" data-topic="Anmeldung" href="https://wa.me/491639116317?text=Hallo,+ich+brauche+Hilfe+zu+E.ON+(Thema:+Anmeldung)&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_anmeldung">Anmeldung</a><a data-pos="body" data-prefill="yes" data-topic="Umzug" href="https://wa.me/491639116317?text=Hallo,+ich+brauche+Hilfe+zu+E.ON+(Thema:+Umzug)&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_umzug">Umzug</a><a data-pos="body" data-prefill="yes" data-topic="Tarif ändern" href="https://wa.me/491639116317?text=Hallo,+ich+brauche+Hilfe+zu+E.ON+(Thema:+Tarif+ändern)&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_tarif_ändern">Tarif ändern</a><a data-pos="body" data-prefill="yes" data-topic="Kündigen" href="https://wa.me/491639116317?text=Hallo,+ich+brauche+Hilfe+zu+E.ON+(Thema:+Kündigen)&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_kündigen">Kündigen</a><a data-pos="body" data-prefill="yes" data-topic="Abschlag anpassen" href="https://wa.me/491639116317?text=Hallo,+ich+brauche+Hilfe+zu+E.ON+(Thema:+Abschlag+anpassen)&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_abschlag_anpassen">Abschlag anpassen</a><a data-pos="body" data-prefill="yes" data-topic="Zählerstand" href="https://wa.me/491639116317?text=Hallo,+ich+brauche+Hilfe+zu+E.ON+(Thema:+Zählerstand)&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_zählerstand">Zählerstand</a></div></div>
+</div>
+</header>
+<main class="wrap">
+<section class="grid grid-3">
+<aside class="card">
+<div class="head"><h2 style="margin:0">Themen</h2><div class="sidebar-card"><h4>Schnell wählen</h4><div class="sidebar-actions"><a class="call" data-pos="sidebar" href="tel:+491639116317">📞 Anrufen</a><button class="copy-tel-btn">Nummer kopieren</button><a class="wa" data-pos="sidebar" data-prefill="yes" href="https://wa.me/491639116317?text=Hallo%2C%20ich%20brauche%20Hilfe%20zu%20E.ON%20%28Thema%3A%20Allgemein%29&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=sidebar_button">💬 WhatsApp</a></div></div><div class="sidebar-card"><h4>Beliebte Anliegen</h4><div class="sidebar-chips"><a data-pos="sidebar" data-prefill="yes" data-topic="Anmeldung" href="https://wa.me/491639116317?text=Hallo%2C%20ich%20brauche%20Hilfe%20zu%20E.ON%20%28Thema%3A%20Anmeldung%29&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_anmeldung">Anmeldung</a><a data-pos="sidebar" data-prefill="yes" data-topic="Umzug" href="https://wa.me/491639116317?text=Hallo%2C%20ich%20brauche%20Hilfe%20zu%20E.ON%20%28Thema%3A%20Umzug%29&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_umzug">Umzug</a><a data-pos="sidebar" data-prefill="yes" data-topic="Tarif ändern" href="https://wa.me/491639116317?text=Hallo%2C%20ich%20brauche%20Hilfe%20zu%20E.ON%20%28Thema%3A%20Tarif%20%C3%A4ndern%29&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_tarif_ändern">Tarif ändern</a><a data-pos="sidebar" data-prefill="yes" data-topic="Kündigen" href="https://wa.me/491639116317?text=Hallo%2C%20ich%20brauche%20Hilfe%20zu%20E.ON%20%28Thema%3A%20K%C3%BCndigen%29&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_kündigen">Kündigen</a><a data-pos="sidebar" data-prefill="yes" data-topic="Abschlag anpassen" href="https://wa.me/491639116317?text=Hallo%2C%20ich%20brauche%20Hilfe%20zu%20E.ON%20%28Thema%3A%20Abschlag%20anpassen%29&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_abschlag_anpassen">Abschlag anpassen</a><a data-pos="sidebar" data-prefill="yes" data-topic="Zählerstand" href="https://wa.me/491639116317?text=Hallo%2C%20ich%20brauche%20Hilfe%20zu%20E.ON%20%28Thema%3A%20Z%C3%A4hlerstand%29&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=chip_zählerstand">Zählerstand</a></div></div><div class="sidebar-card"><div class="sidebar-open"><span class="dot"></span><span>Heute geöffnet – sofort erreichbar</span></div><div class="sidebar-rating"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span> 5,0 · 189 Bewertungen</div></div></div>
+<div class="content">
+<div class="list-clean">
+<a href="/anbieter/eon/kundenservice/">Kundenservice Übersicht</a><br/>
+<a href="/anbieter/eon/anmelden/">Anmelden / Ummelden</a><br/>
+<a href="/anbieter/eon/tarif-aendern/">Tarif ändern</a><br/>
+<a href="/anbieter/eon/kuendigen/">Vertrag kündigen</a><br/>
+<a href="/anbieter/eon/zaehler/">Zählerstand melden</a>
+</div>
+</div>
+</aside>
+<div class="grid" style="gap:12px">
+<nav aria-label="Brotkrumen" class="breadcrumb">
+<a href="/anbieter/">Anbieter</a><span class="sep">›</span>
+<a href="/anbieter/eon/">E.ON</a><span class="sep">›</span>
+<strong>Telefonnummer</strong>
+</nav>
+<article class="card">
+<div class="head">
+<span class="badge-brand">E.ON</span>
+<div class="h1row" style="margin-top:8px">
+<img alt="E.ON" class="brand-h1-logo" src="data:image/png;base64,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"/>
+<h1 style="margin:0">E.ON Kundenservice &amp; Hotline – sofort sprechen</h1><div class="trust-strip"><div class="trust-pill"><span class="dot"></span><span>Leitung frei · &lt;2 Min</span></div><div class="trust-pill"><span class="trust-star">★</span><span>5,0 · 189 Bewertungen</span></div><div class="trust-pill"><span>DSGVO-konform</span></div><div class="trust-pill"><span>SSL-gesichert</span></div><div class="trust-pill"><span>Kostenlos &amp; unverbindlich</span></div></div><div class="mini-testimonials"><div class="bubble">„Nach 4 Minuten war mein Umzug erledigt.“<span class="who">– Selin K.</span></div><div class="bubble">„Abschlag am Telefon angepasst, super schnell.“<span class="who">– Martin R.</span></div></div><div class="rating-badge"><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><div class="text">Bewertung des E.ON Kundenservice: 5,0 (189 Bewertungen)</div></div><a class="card-cta-tel" href="tel:+491639116317" style="text-decoration:none;padding:8px 12px;border-radius:999px;border:2px solid #10b981;display:inline-block;margin-top:10px;font-weight:700;">📞 Jetzt anrufen</a><button class="copy-tel-btn">Nummer kopieren</button>
+</div>
+<p class="muted" style="margin:6px 0 0">Hilfe zu Anmeldung, Umzug, Abschlag &amp; Tarifwechsel – direkt am Telefon.</p>
+</div>
+<div class="content">
+<div class="badges">
+<span class="pill">⚡ Direkt am Telefon</span>
+<span class="pill">🧭 Schritt‑für‑Schritt</span>
+<span class="pill">🔁 Wechsel/Anmeldung</span>
+<span class="pill">⏱️ Zeit sparen</span>
+</div>
+<div style="margin:12px 0;display:flex;gap:10px;flex-wrap:wrap">
+<a class="btn primary" data-pos="body" href="tel:+491639116317">📞 Jetzt anrufen</a><button class="copy-tel-btn">Nummer kopieren</button>
+<a class="btn ghost" data-pos="body" data-prefill="no" href="https://wa.me/491639116317?utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=existing">💬 WhatsApp</a>
+</div>
+<p class="muted" style="font-size:14px;margin:0">Tipp: Zählernummer, Zählerstand, Einzugs-/Auszugsdatum und IBAN bereithalten.</p>
+</div>
+</article><section class="section-card" id="trust"><h2>Trust &amp; Sicherheit</h2><div class="rating-badge"><span class="stars">★★★★★</span><span class="text">5,0 · 189 Bewertungen · Heute geöffnet</span></div><div class="trust-strip"><div class="trust-pill"><span class="dot"></span><span>Kostenlos &amp; unverbindlich</span></div><div class="trust-pill"><span class="dot"></span><span>DSGVO‑konform · kein Datenverkauf</span></div><div class="trust-pill"><span class="dot"></span><span>Sofort erreichbar · ⩽ 2 Min. Wartezeit</span></div><div class="trust-pill"><span class="dot"></span><span>WhatsApp &amp; Telefon</span></div><div class="trust-pill"><span class="dot"></span><span>SSL‑gesichert</span></div></div></section><section class="section-card" id="versprechen"><h2>Unser Versprechen</h2><div class="rich-bullets"><div class="item"><div class="icon">⚡</div><div><strong>Sofort dran</strong><div> Wir nehmen ab – keine Warteschleife. Anliegen in 5–7 Minuten klären.</div></div></div><div class="item"><div class="icon">🧾</div><div><strong>Alles am Telefon</strong><div> Anmeldung, Umzug, Abschlag, Tarifwechsel – direkt erledigt.</div></div></div><div class="item"><div class="icon">🔒</div><div><strong>Datenschutz</strong><div> DSGVO‑konform. Nur notwendige Daten, keine Weitergabe an Dritte.</div></div></div><div class="item"><div class="icon">💶</div><div><strong>0 € für dich</strong><div> Beratung ist kostenlos &amp; unverbindlich. Wir erhalten ggf. eine Provision – dein Preis bleibt gleich.</div></div></div></div></section><section class="section-card" id="howto"><h2>So funktioniert’s</h2><ol class="list-clean"><li>1. Daten bereitlegen: Name, Adresse, Zählernummer, Datum, IBAN.</li><li>2. Anrufen oder per WhatsApp schreiben – wir gehen alles live durch.</li><li>3. Bestätigung am Telefon – fertig.</li></ol><div class="cta-row"><a class="cta-primary" href="tel:+491639116317">📞 Jetzt anrufen</a><a class="cta-secondary" href="https://wa.me/491639116317?utm_source=howto">💬 WhatsApp</a></div></section><div class="head"><h2 style="margin:0">Warum anrufen?</h2><div class="rich-bullets"><div class="item"><div class="icon">⚡</div><div>Sofort dran – keine Warteschleife. Wir lösen Anliegen in 5–7 Minuten.</div></div><div class="item"><div class="icon">👩‍💻</div><div>Echte Personen am Telefon – kein Bot, kein Formular-Dschungel.</div></div><div class="item"><div class="icon">🧾</div><div>Rechnung live durchgehen – wir finden Sparpotenziale &amp; Fehler.</div></div><div class="item"><div class="icon">🔒</div><div>Transparenz &amp; Datenschutz (DSGVO). Nie Abschluss ohne Zustimmung.</div></div><div class="item"><div class="icon">✅</div><div>Kostenlos &amp; unverbindlich. Du entscheidest erst nach Beratung.</div></div></div><a class="card-cta-tel" href="tel:+491639116317" style="text-decoration:none;padding:8px 12px;border-radius:999px;border:2px solid #10b981;display:inline-block;margin-top:10px;font-weight:700;">📞 Jetzt anrufen</a><button class="copy-tel-btn">Nummer kopieren</button></div><div class="content">
+<ul class="list-clean">
+<li><a href="#topic-direkt-eine-person-am-telefon">Direkt eine Person am Telefon</a></li>
+<li><a href="#topic-schritt-f-r-schritt-anleitung">Schritt‑für‑Schritt Anleitung</a></li>
+<li><a href="#topic-wechsel-anmeldung-sofort-m-glich">Wechsel/Anmeldung sofort möglich</a></li>
+</ul>
+</div><div class="head"><h2 style="margin:0">Erreichbarkeit</h2></div><div class="content"><div class="muted">Mo–Sa 08:00–20:00</div></div><div class="head"><h2 style="margin:0">E.ON Anschrift</h2></div><div class="content">
+<div class="muted">E.ON SE, Brüsseler Platz 1, 45131 Essen</div>
+</div>
+<section class="card">
+<div class="head"><h2 style="margin:0">News &amp; Ratgeber</h2><div class="card news-card"><h3>Abschlag optimieren – 25–75 € pro Monat sparen</h3><p>Wir prüfen deinen Abschlag am Telefon und passen ihn sofort an – viele Kunden sparen 25–75 € jeden Monat. Hol dir deine Entlastung zurück.</p><div><a class="card-cta-tel" href="tel:+491639116317" style="text-decoration:none;padding:8px 12px;border-radius:999px;border:2px solid #10b981;display:inline-block;margin-top:10px;font-weight:700;">Jetzt telefonisch erledigen →</a><a class="card-cta-wa" data-prefill="yes" data-topic="Abschlag anpassen" href="https://wa.me/491639116317?text=Hallo%2C%20ich%20brauche%20Hilfe%20zu%20E.ON%20%28Thema%3A%20Abschlag%20anpassen%29&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=news_ab" style="margin-left:8px;text-decoration:none;padding:8px 12px;border-radius:999px;border:2px solid #25D366;display:inline-block;margin-top:10px;font-weight:700;">Per WhatsApp starten</a></div></div></div>
+<div class="content">
+<div class="newsgrid">
+<article>
+<img alt="E.ON News" src="https://picsum.photos/seed/eon11/960/540" style="display:block;width:100%;height:auto"/>
+<div style="padding:12px">
+<strong>Abschläge 2025: Was ändert sich bei E.ON?</strong><br/>
+<span class="muted" style="font-size:12px">(2025-09-22)</span>
+<p style="margin:6px 0 0">Viele Verträge werden neu berechnet. Prüfe deinen Abschlag (Zählerstand, Verbrauch) und passe ihn an, damit am Jahresende keine hohe Nachzahlung entsteht. Wir gehen die letzte Rechnung mit dir gemeinsam durch und erklären, welche Positionen wichtig sind.</p>
+</div>
+</article>
+<article>
+<img alt="E.ON News" src="https://picsum.photos/seed/eon22/960/540" style="display:block;width:100%;height:auto"/>
+<div style="padding:12px">
+<strong>Umzug bei E.ON Schritt‑für‑Schritt</strong><br/>
+<span class="muted" style="font-size:12px">(2025-09-22)</span>
+<p style="margin:6px 0 0">Für An-/Ummeldung brauchst du Zählernummer, Zählerstand sowie Einzugs-/Auszugsdatum. Wir bereiten alles vor, prüfen Fristen und übermitteln die Daten korrekt. So vermeidest du doppelte Abrechnungen und Fehlzuordnungen.</p>
+</div>
+</article>
+<article>
+<img alt="E.ON News" src="https://picsum.photos/seed/eon33/960/540" style="display:block;width:100%;height:auto"/>
+<div style="padding:12px">
+<strong>Tarifwechsel: Festpreis oder flexibel?</strong><br/>
+<span class="muted" style="font-size:12px">(2025-09-22)</span>
+<p style="margin:6px 0 0">Ob fester Arbeitspreis oder flexible Modelle sinnvoll sind, hängt von deinem Verbrauch, deiner Risikoneigung und der Laufzeit ab. Wir vergleichen live am Telefon und zeigen dir die jeweiligen Vor- und Nachteile.</p>
+</div>
+</article>
+<article>
+<img alt="E.ON News" src="https://picsum.photos/seed/eon44/960/540" style="display:block;width:100%;height:auto"/>
+<div style="padding:12px">
+<strong>Zählerstand: Richtig melden – so geht’s</strong><br/>
+<span class="muted" style="font-size:12px">(2025-09-22)</span>
+<p style="margin:6px 0 0">Fotografiere das Display gut lesbar, notiere Datum und Uhrzeit. Bei analogen Zählern nur die schwarzen Ziffern vor dem Komma melden. Wir helfen dir, die Meldung korrekt zu übermitteln.</p>
+</div>
+</article>
+<article>
+<img alt="E.ON News" src="https://picsum.photos/seed/eon55/960/540" style="display:block;width:100%;height:auto"/>
+<div style="padding:12px">
+<strong>Abschläge anpassen – typische Fehler vermeiden</strong><br/>
+<span class="muted" style="font-size:12px">(2025-09-22)</span>
+<p style="margin:6px 0 0">Viele setzen den Abschlag zu niedrig an. Wir rechnen gemeinsam mit dem aktuellen Arbeitspreis und deinem Vorjahresverbrauch – realistisch und ohne Überraschungen.</p>
+</div>
+</article>
+<article>
+<img alt="E.ON News" src="https://picsum.photos/seed/eon66/960/540" style="display:block;width:100%;height:auto"/>
+<div style="padding:12px">
+<strong>Bonus &amp; Laufzeiten im Blick behalten</strong><br/>
+<span class="muted" style="font-size:12px">(2025-09-22)</span>
+<p style="margin:6px 0 0">Tarifboni gelten oft nur im ersten Jahr. Achte auf die Preisgestaltung danach und auf Kündigungsfristen. Wir erinnern dich rechtzeitig und zeigen Alternativen.</p>
+</div>
+</article></div>
+</div><div class="head"><h2 style="margin:0">Checkliste</h2></div><div class="content">
+<div class="pill">🔢 Zählernummer</div>
+<div class="pill">⏱️ aktueller Zählerstand</div>
+<div class="pill">📆 Ein-/Auszugsdatum</div>
+<div class="pill">🏠 Anschrift (Straße, Hausnr., PLZ, Ort)</div>
+<div class="pill">🏦 IBAN</div>
+<div class="pill">🆔 MaLo‑ID (Marktlokations‑ID)</div>
+<div class="pill">🧾 Rechnungsnummer</div>
+</div><section class="section-card" id="faq"><h2>Häufige Fragen (FAQ)</h2><div class="faq"><details><summary>Welche Daten brauche ich für Anmeldung oder Umzug?</summary><div>Name, Adresse, Zählernummer, Einzugs- bzw. Auszugsdatum und IBAN. Wir gehen alles live am Telefon durch.</div></details><details><summary>Wie schnell geht der Wechsel?</summary><div>Wir stoßen den Wechsel innerhalb von 24 Stunden an. Der Lieferbeginn hängt von Netzbetreiber und bisherigem Vertrag ab.</div></details><details><summary>Kostet der Anruf etwas?</summary><div>Nein. Unsere Beratung ist kostenlos und unverbindlich.</div></details><details><summary>Kündigt ihr meinen alten Vertrag?</summary><div>Ja – soweit möglich übernehmen wir die Kündigung und den Wechselprozess für dich.</div></details><details><summary>Was ist mit Grundversorgung?</summary><div>Wir holen dich sicher aus der Grundversorgung in einen passenden Tarif – ohne Unterbrechung.</div></details><details><summary>Gibt es Hilfe für Gewerbe?</summary><div>Ja. Wir beraten Gewerbe- und Geschäftskunden telefonisch und stellen passende Angebote zusammen.</div></details><details><summary>Wie ist der Datenschutz geregelt?</summary><div>DSGVO-konform. Wir verarbeiten nur die Daten, die zur Bearbeitung deines Anliegens erforderlich sind.</div></details></div><div class="cta-row"><a class="cta-primary" href="tel:+491639116317">📞 Frage am Telefon klären</a><a class="cta-secondary" data-prefill="yes" data-topic="Frage" href="https://wa.me/491639116317?utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=existing">💬 Frage per WhatsApp</a></div></section>
+</section>
+<!-- Tipps & Infos -->
+<section class="card" style="margin:0 0 12px">
+<div class="head"><h2 style="margin:0">Tipps &amp; Infos zu Strom, Gas &amp; Energie</h2></div>
+<div class="content">
+<p>Hier findest du kompakte Hinweise, die bei den häufigsten Anliegen helfen – kurz, klar und sofort umsetzbar:</p>
+<ul class="list-clean">
+<li>💡 <strong>Abschlag prüfen:</strong> Arbeitspreis × kWh + Grundpreis. Plane Sicherheitszuschlag bei steigendem Verbrauch ein.</li>
+<li>🧾 <strong>Rechnung verstehen:</strong> Wir erklären Grundpreis, Arbeitspreis, Netzentgelte &amp; Umlagen – ohne Fachchinesisch.</li>
+<li>🔁 <strong>Tarifwechsel:</strong> Kündigungsfrist &amp; Bonusbedingungen prüfen; Wechsel rechtzeitig starten, um Leerlauf zu vermeiden.</li>
+<li>🚚 <strong>Umzug:</strong> Zählernummer und Zählerstand fotografieren; Einzugs- und Auszugsdatum exakt dokumentieren.</li>
+<li>🌱 <strong>Ökostrom:</strong> Auf Herkunftsnachweise achten, Laufzeiten vergleichen, Preisstabilität bewerten.</li>
+</ul>
+</div>
+</section>
+<!-- Bildstrecke -->
+<section class="card" style="margin-bottom:12px">
+</section>
+</div><section class="section-card" id="wechsel-24h"><h2>24h Wechsel – heute starten</h2><p>Wir stoßen deinen Tarifwechsel innerhalb von 24 Stunden an. Der tatsächliche Lieferbeginn hängt von Zähler/Netzbetreiber und deinem bisherigen Vertrag ab – wir klären alles am Telefon.</p><div class="rich-bullets"><div class="item"><div class="icon">🕒</div><div>Start binnen 24h – Bestätigung per SMS/WhatsApp</div></div><div class="item"><div class="icon">📋</div><div>Alles am Telefon: Name, Adresse, Zählernummer, IBAN</div></div><div class="item"><div class="icon">🔁</div><div>Nahtloser Übergang – keine Unterbrechung der Versorgung</div></div></div><div class="cta-row"><a class="cta-primary" href="tel:+491639116317">📞 Jetzt anrufen</a><a class="cta-secondary" data-prefill="yes" data-topic="Wechsel" href="https://wa.me/491639116317?utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=existing">💬 WhatsApp starten</a></div></section><section class="section-card" id="gewerbe"><h2>Gewerbe – Strom &amp; Gas für Unternehmen</h2><p>Wir kümmern uns um Gewerbestrom und -gas: vom Einzelunternehmer bis zur Filialkette. Abrechnung, Laufzeiten, Abschläge – alles telefonisch geklärt.</p><div class="rich-bullets"><div class="item"><div class="icon">🏢</div><div>Für Einzelunternehmen, GmbH, e.K., Vereine</div></div><div class="item"><div class="icon">📑</div><div>Benötigt: Firma, Adresse, Zählernummer(n), gewünschter Start</div></div><div class="item"><div class="icon">💼</div><div>Optional: USt-IdNr., Lastprofil/Verbrauch – wir helfen beim Ablesen</div></div><div class="item"><div class="icon">🧮</div><div>Sonderkonditionen ab mehreren Zählpunkten</div></div></div><div class="cta-row"><a class="cta-primary" href="tel:+491639116317">📞 Gewerbe jetzt anrufen</a><a class="cta-secondary" data-prefill="yes" data-topic="Gewerbe" href="https://wa.me/491639116317?utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=existing">💬 Angebot per WhatsApp</a></div></section>
+<aside class="card">
+</aside>
+</section>
+<div class="head"><h2 style="margin:0">Themen auf dieser Seite</h2></div><div class="content"><div class="kws">eon telefonnummer · eon kundenservice · eon kontakt · eon anmelden · eon tarif ändern · eon vertrag kündigen · eon abschlag anpassen · eon zählerstand melden · eon umzug</div></div></main>
+<div aria-label="Schnellzugriff" class="sticky" role="region">
+<a class="btn primary" data-pos="body" href="tel:+491639116317" style="flex:1">📞 Anrufen</a><button class="copy-tel-btn">Nummer kopieren</button>
+<a class="btn ghost" data-pos="body" data-prefill="no" href="https://wa.me/491639116317?utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=existing" style="flex:1">💬 WhatsApp</a>
+</div>
+<div id="sticky-contact-bar"><div class="left">● Leitung frei – sofort erreichbar · durchschnittliche Wartezeit &lt; 2 Min</div><a class="cta cta-call" data-pos="sticky" href="tel:+491639116317">📞 Jetzt anrufen</a><button class="copy-tel-btn">Nummer kopieren</button><a class="cta cta-wa" data-pos="sticky" data-prefill="yes" href="https://wa.me/491639116317?text=Hallo,+ich+brauche+Hilfe+zu+E.ON+(Thema+auswählen)&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=sticky">💬 WhatsApp starten</a><span class="meta">Kundenservice</span></div>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-P4QRJ361T5"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-P4QRJ361T5', {'allow_ad_personalization_signals': true});
+gtag('config', 'AW-17265936600');
+
+function trackTelClick(pos) {
+  gtag('event', 'tel_click', { position: pos });
+}
+function trackWA(pos, prefill, topic, content) {
+  gtag('event', 'whatsapp_click', { position: pos, prefill: prefill ? 'yes':'no', topic: topic || '', content: content || '' });
+}
+function trackCallback(name, phone, topic) {
+  gtag('event', 'callback_submit', { name: name||'', phone: phone||'', topic: topic||'' });
+}
+
+document.addEventListener('click', function(e){
+  var a = e.target.closest('a');
+  if(!a) return;
+  // tel clicks
+  if(a.getAttribute('href') && a.getAttribute('href').startsWith('tel:')) {
+     trackTelClick(a.dataset.pos || 'body');
+  }
+  // whatsapp clicks
+  if(a.href && a.href.indexOf('wa.me')>-1) {
+     trackWA(a.dataset.pos || 'body', a.dataset.prefill === 'yes', a.dataset.topic || '', (new URL(a.href)).searchParams.get('utm_content') || '');
+  }
+});
+
+// Callback mini
+document.getElementById('cb_submit')?.addEventListener('click', function(){
+  var name = document.getElementById('cb_name')?.value || '';
+  var phone = document.getElementById('cb_phone')?.value || '';
+  var topic = document.getElementById('cb_topic')?.value || '';
+  trackCallback(name, phone, topic);
+  // Open WhatsApp prefilled as "callback" fallback
+  var msg = encodeURIComponent('Rückruf bitte. Name: ' + name + ', Telefon: ' + phone + ', Thema: ' + topic);
+  var url = 'https://wa.me/491639116317?text=' + msg + '&utm_source=wa&utm_medium=button&utm_campaign=eon_telefon&utm_content=callback_form';
+  window.open(url, '_blank');
+});
+</script>
+<script>
+(function(){
+  function getParam(n){
+    return new URL(window.location.href).searchParams.get(n);
+  }
+  var intent = getParam('intent');
+  if(!intent) return;
+  // Normalize label
+  var map = {
+    'anmeldung':'Anmeldung', 'umzug':'Umzug', 'tarif':'Tarif ändern', 'kuendigen':'Kündigen',
+    'abschlag':'Abschlag anpassen', 'zaehlerstand':'Zählerstand', 'zählerstand':'Zählerstand'
+  };
+  var topic = map[intent.toLowerCase()] || intent;
+  // Reorder sidebar chips so that topic is first
+  var chipsWrap = document.querySelector('.sidebar-chips');
+  if(chipsWrap){
+    var chips = Array.from(chipsWrap.querySelectorAll('a'));
+    var match = chips.find(a => (a.textContent||'').trim().toLowerCase() === topic.toLowerCase());
+    if(match){
+      chipsWrap.insertBefore(match, chipsWrap.firstChild);
+    }
+  }
+  // Adjust all WhatsApp links prefill
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function(a){
+    try{
+      var url = new URL(a.href);
+      var text = url.searchParams.get('text') || '';
+      if(text && topic && text.indexOf('(Thema:')>-1){
+        text = text.replace(/\(Thema:[^)]+\)/, '(Thema: ' + topic + ')');
+      } else if(topic){
+        text += (text ? ' ' : '') + '(Thema: ' + topic + ')';
+      }
+      url.searchParams.set('text', text);
+      // mark utm_content
+      if(!url.searchParams.get('utm_content')){
+        url.searchParams.set('utm_content','intent_'+encodeURIComponent(intent));
+      }
+      a.href = url.toString();
+      a.dataset.topic = topic;
+    }catch(e){}
+  });
+  // Optional: adjust heading with the topic if present
+  var h = Array.from(document.querySelectorAll('h1,h2,h3')).find(el => /E\.ON Kundenservice|E\.ON Telefonnummer/i.test(el.textContent||''));
+  if(h && topic){
+    // no hard rewrite; just add small note
+    var note = document.createElement('div');
+    note.style.fontSize = '14px'; note.style.marginTop='4px'; note.style.color='#111827'; note.textContent = 'Thema: ' + topic;
+    h.insertAdjacentElement('afterend', note);
+  }
+})();
+</script>
+<script>
+document.addEventListener('click', function(e){
+  var btn = e.target.closest('.copy-tel-btn');
+  if(!btn) return;
+  var tel = btn.previousElementSibling && btn.previousElementSibling.getAttribute('href');
+  if(!tel || tel.indexOf('tel:')!==0) return;
+  var num = tel.replace('tel:','');
+  navigator.clipboard.writeText(num).then(function(){
+    btn.classList.add('copied');
+    btn.textContent = 'Kopiert!';
+    setTimeout(function(){ btn.classList.remove('copied'); btn.textContent = 'Nummer kopieren'; }, 1500);
+  });
+});
+</script>
+<script>
+(function(){
+  // Opening hours per weekday (0=Sun ... 6=Sat)
+  var HOURS = {
+    1: {open:8, close:20},  // Mon
+    2: {open:8, close:20},  // Tue
+    3: {open:8, close:20},  // Wed
+    4: {open:8, close:20},  // Thu
+    5: {open:8, close:20},  // Fri
+    6: {open:9, close:18},  // Sat
+    0: {open:10, close:16}  // Sun
+  };
+  function pad(n){ return (n<10?'0':'')+n; }
+  function statusText(now){
+    var d = now.getDay();
+    var cfg = HOURS[d] || {open:8, close:20};
+    var h = now.getHours() + now.getMinutes()/60;
+    var openNow = (h >= cfg.open && h < cfg.close);
+    if(openNow){
+      return 'jetzt geöffnet';
+    } else {
+      return 'öffnet um ' + pad(cfg.open) + ':00';
+    }
+  }
+  function updateOpenStatus(){
+    var left = document.querySelector('#sticky-contact-bar .left');
+    if(!left) return;
+    left.textContent = '● Leitung frei – ' + statusText(new Date()) + ' · durchschnittliche Wartezeit < 2 Min';
+  }
+  updateOpenStatus();
+  setInterval(updateOpenStatus, 60000);
+  window.__OPENING_HOURS__ = HOURS; // expose for exit-intent
+})();
+</script>
+<div aria-hidden="true" id="exit-intent-backdrop">
+<div aria-labelledby="exit-title" id="exit-intent-modal" role="dialog">
+<button aria-label="Schließen" id="exit-intent-close">×</button>
+<h3 id="exit-title">Rückruf ab 08:00 sichern?</h3>
+<p>Außerhalb der Öffnungszeiten. Wir melden uns gleich morgen früh. Oder rufe uns morgen direkt an.</p>
+<div id="exit-intent-actions">
+<a class="wa" data-prefill="yes" href="https://wa.me/491639116317?text=R%C3%BCckruf%20bitte%20ab%2008%3A00&amp;utm_source=wa&amp;utm_medium=button&amp;utm_campaign=eon_telefon&amp;utm_content=exit_intent">💬 WhatsApp Rückruf</a>
+<a class="tel" data-pos="exit" href="tel:+491639116317">📞 Morgen anrufen</a>
+</div>
+</div>
+</div>
+<script>
+(function(){
+  var shown = false;
+  function isOpenNow(){
+    var HOURS = window.__OPENING_HOURS__;
+    var now = new Date();
+    var d = now.getDay();
+    var cfg = HOURS && HOURS[d] ? HOURS[d] : {open:8, close:20};
+    var h = now.getHours() + now.getMinutes()/60;
+    return (h >= cfg.open && h < cfg.close);
+  }
+  function showModal(){
+    if(shown) return;
+    shown = true;
+    var bd = document.getElementById('exit-intent-backdrop');
+    if(bd){ bd.style.display='flex'; }
+  }
+  // Desktop exit intent
+  document.addEventListener('mouseout', function(e){
+    if(e.clientY <= 0 && !isOpenNow()){ showModal(); }
+  });
+  // Mobile: when user scrolls up quickly near top, or hides address bar
+  var lastY = window.scrollY;
+  window.addEventListener('scroll', function(){
+    var y = window.scrollY;
+    if(y < 10 && lastY - y > 60 && !isOpenNow()){ showModal(); }
+    lastY = y;
+  });
+  // Close handlers
+  document.getElementById('exit-intent-close')?.addEventListener('click', function(){
+    document.getElementById('exit-intent-backdrop').style.display='none';
+  });
+  document.getElementById('exit-intent-backdrop')?.addEventListener('click', function(e){
+    if(e.target.id === 'exit-intent-backdrop'){
+      document.getElementById('exit-intent-backdrop').style.display='none';
+    }
+  });
+})();
+</script>
+<style id="fix-gewerbe-placement">
+@media (min-width: 992px){
+  /* Force Gewerbe section to the right column in the main grid */
+  .grid > section#gewerbe,
+  main .grid > section#gewerbe {
+    grid-column: 2;
+    grid-row: auto;
+  }
+}
+</style></body>
+</html>
